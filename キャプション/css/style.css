@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #333;
+}
+
+header h1 {
+  padding: 20px 25px;
+  color: #fff;
+  background: #2f353e;
+  margin: 0;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+main ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main li {
+  cursor: pointer;
+  position: relative;
+  width: 320px;
+  margin: 0 20px 50px 0;
+  color: #fff;
+  line-height: 2em;
+}
+
+main li:nth-child(3n) {
+  margin-right: 0;
+}
+
+main li img {
+  vertical-align: bottom;
+}
+
+main div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: rgba(17, 179, 179, 0.7);
+  /* デフォルトで非表示 */
+  display: none;
+}
+
+main p {
+  position: relative;
+  top: 10px;
+}
